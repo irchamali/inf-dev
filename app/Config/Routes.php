@@ -74,8 +74,14 @@ $routes->get('monevrutin', 'AbMonevrutinController::index');
 // AkreditasiController
 $routes->get('akreditasi', 'AkreditasiController::index');
 
-// DaftartilikController
+// Controller pada Sub Menu Formulir
 $routes->get('ami', 'AmiController::index');
+$routes->get('auditnonakademik', 'FauditnonController::index');
+$routes->get('renstra', 'FrenstraController::index');
+$routes->get('renop', 'FrenopController::index');
+$routes->get('lakin', 'FlakinController::index');
+$routes->get('progressreport', 'FprogressController::index');
+$routes->get('formspmi', 'FormspmiController::index');
 
 // DocumentController
 $routes->get('document', 'DocumentController::index');
@@ -157,7 +163,7 @@ $routes->group('admin', ['filter' => 'authadmin'], static function ($routes) {
     // Documents Category Route
     $routes->group('docscategory', static function ($routes) {
         $routes->get('', 'Admin\DocsCategoryAdminController::index');
-        $routes->post('', 'Admin\DocsCategoryAdminController::insert');
+        $routes->post('', 'Admin\DocsCategoryAdminController::save');
         $routes->put('', 'Admin\DocsCategoryAdminController::edit');
         $routes->delete('', 'Admin\DocsCategoryAdminController::delete');
     });
@@ -171,7 +177,7 @@ $routes->group('admin', ['filter' => 'authadmin'], static function ($routes) {
     // Laporan Category Route
     $routes->group('lapcategory', static function ($routes) {
         $routes->get('', 'Admin\LapCategoryAdminController::index');
-        $routes->post('', 'Admin\LapCategoryAdminController::insert');
+        $routes->post('', 'Admin\LapCategoryAdminController::save');
         $routes->put('', 'Admin\LapCategoryAdminController::edit');
         $routes->delete('', 'Admin\LapCategoryAdminController::delete');
     });

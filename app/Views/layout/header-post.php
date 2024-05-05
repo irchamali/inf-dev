@@ -13,6 +13,14 @@
   <link href="/assets/frontend/img/favicon.png" rel="icon">
   <link href="/assets/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- SEO Tag -->
+  <meta property="og:type" content="website" />
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image" content="<?= base_url('/assets/backend/images/post/') . $post['post_image']; ?>">
+  <meta property="og:image:secure_url" content="<?= base_url('/assets/backend/images/post/') . $post['post_image']; ?>" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,25 +124,17 @@
               <li><a href="/laporan/monev-nonakademik">Monev Nonakademik</a></li>
               <li><a href="/laporan/audit-akademik">Audit Akademik</a></li>
               <li><a href="/laporan/audit-nonakademik">Audit Nonakademik</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Drop Down 2</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Sub Drop Down 1</a></li>
-                  <li><a href="#">Sub Drop Down 2</a></li>
-                  <li><a href="#">Sub Drop Down 3</a></li>
-                  <li><a href="#">Sub Drop Down 4</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Formulir</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="/ami">Daftar Tilik AMI</a></li>
-              <li><a href="#">Daftar Tilik Audit Nonakademik</a></li>
-              <li><a href="#">Formulir ...</a></li>
-              <li><a href="#">Template Renstra</a></li>
-              <li><a href="#">Template RENOP</a></li>
-              <li><a href="#">Template LAKIN</a></li>
-              <li><a href="#">Formulir Buku 4</a></li>
+              <li><a href="/auditnonakademik">Daftar Tilik Audit Nonakademik</a></li>
+              <li><a href="/renstra">Template Renstra</a></li>
+              <li><a href="/renop">Rencana Operasional</a></li>
+              <li><a href="/lakin">Laporan Kinerja</a></li>
+              <li><a href="/progressreport">Laporan Progres</a></li>
+              <li><a href="/formspmi">Formulir SPMI</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Data</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>

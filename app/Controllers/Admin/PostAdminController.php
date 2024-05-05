@@ -103,15 +103,29 @@ class PostAdminController extends BaseController
         ])) {
             return redirect()->to('/admin/post/add_new')->withInput()->with('peringatan', 'Data gagal disimpan dikarenakan ada penginputan yang tidak sesuai. silakan coba lagi!');
         }
+        
         // Cek foto
         if ($this->request->getFile('filefoto')->isValid()) {
             // Ambil File foto
             $fotoUpload = $this->request->getFile('filefoto');
+
+            // Simpan nama file yang akan digunakan
             $namaFotoUpload = $fotoUpload->getRandomName();
-            $fotoUpload->move('assets/backend/images/post/', $namaFotoUpload);
+
+            // Kompresi gambar
+            $image = \Config\Services::image()
+                ->withFile($fotoUpload)
+                ->resize(1000, 800, true) // Ubah ukuran sesuai kebutuhan
+                ->save('assets/backend/images/post/' . $namaFotoUpload);
+
+            // Hapus file asli jika proses kompresi selesai
+            if (file_exists('assets/backend/images/post/' . $fotoUpload->getName())) {
+                unlink('assets/backend/images/post/' . $fotoUpload->getName());
+            }
         } else {
             $namaFotoUpload = 'default-post.png';
         }
+
         $title = strip_tags(htmlspecialchars($this->request->getPost('title'), ENT_QUOTES));
         $contents = $this->request->getPost('contents');
         $category = strip_tags(htmlspecialchars($this->request->getPost('category'), ENT_QUOTES));
@@ -165,6 +179,7 @@ class PostAdminController extends BaseController
         ];
         return view('admin/v_edit_post', $data);
     }
+    
     public function update()
     {
         $post_id = $this->request->getPost('post_id');
@@ -230,16 +245,29 @@ class PostAdminController extends BaseController
         foreach ($tags as $tag) {
             $tags = implode(",", $tag);
         }
-        // Cek Foto
+        
+        // Cek foto
         $postAwal = $this->postModel->find($post_id);
         $fotoAwal = $postAwal['post_image'];
         $fileFoto = $this->request->getFile('filefoto');
-        if ($fileFoto->getName() == '') {
-            $namaFotoUpload = $fotoAwal;
+
+        // Jika tidak ada file yang diunggah
+        if ($fileFoto->getError() == UPLOAD_ERR_NO_FILE) {
+            $namaFotoUpload = $fotoAwal; // Gunakan foto lama
         } else {
+            // Hapus foto lama jika bukan foto default dan bukan sama dengan foto baru
+            if ($fotoAwal != 'default-post.png' && $fotoAwal != $fileFoto->getName()) {
+                $pathToFotoAwal = 'assets/backend/images/post/' . $fotoAwal;
+                if (file_exists($pathToFotoAwal) && is_file($pathToFotoAwal)) {
+                    unlink($pathToFotoAwal); // Hapus hanya jika itu adalah file, bukan direktori
+                }
+            }
+
+            // Simpan gambar baru
             $namaFotoUpload = $fileFoto->getRandomName();
             $fileFoto->move('assets/backend/images/post/', $namaFotoUpload);
         }
+        
         // Simpan ke database
         $this->postModel->save([
             'post_id' => $post_id,
@@ -256,6 +284,7 @@ class PostAdminController extends BaseController
         ]);
         return redirect()->to('/admin/post')->with('msg', 'success');
     }
+    
     public function delete()
     {
         $post_id = $this->request->getPost('id');
