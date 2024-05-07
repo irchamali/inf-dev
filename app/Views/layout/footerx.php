@@ -3,8 +3,8 @@
             <div class="row">
               <div class="col-sm-3">
                 <div class="widget">
-                  <h5 class="widget-title font-alt">About TI UNUSIA</h5>
-                  <p>Teknik Informatika di Unversitas Nahdlatul Ulama Indonesia merupakan Program Studi yang Memiliki Kekhasan dalam bidang Pengembangan Perangkat Lunak dan Sistem Cerdas.</p>
+                  <h5 class="widget-title font-alt">Tentang TI UNUSIA</h5>
+                  <p>Teknik Informatika Unversitas Nahdlatul Ulama Indonesia (TI UNUSIA) merupakan Program Studi yang Memiliki Kekhasan dalam bidang Pengembangan Perangkat Lunak dan Sistem Cerdas.</p>
                   
                 </div>
               </div>
@@ -15,7 +15,7 @@
                     <li>Email <a href="mailto:informatika@unusia.ac.id">informatika@unusia.ac.id</a></li>
                     <li>WhatsApp <a href="#">Click for WA me</a></li>
                     <li>Instagram <a href="https://instagram.com/teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
-                    <li>TikTok <a href="#">Teknik Informatika Unusia</a></li>
+                    <li>TikTok <a href="https://tiktok.com/@teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
                     <li>FaceBook <a href="https://facebook.com/teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
                   </ul>
                 </div>
@@ -24,10 +24,10 @@
                 <div class="widget">
                   <h5 class="widget-title font-alt">Informasi Berguna</h5>
                   <ul class="icon-list">
-                    <li><a href="https://youtube.com">Video Profil</a></li>
-                    <li><a href="#">Podcast</a></li>
-                    <li><a href="#">Browsur</a></li>
-                    
+                    <li><a href="https://youtu.be/yPGNLD3cVLs?si=KxEtdVmEawaMQ7Es">Video Profil</a></li>
+                    <li><a href="https://youtu.be/zKZt0GUluaI?si=eX9Mn0S4I0_gorqC">Podcast</a></li>
+                    <li><a href="https://pmb.unusia.ac.id">Pendaftaran</a></li>
+                    <li><a href="https://github.com/unusialabs">Repository</a></li>
                   </ul>
                 </div>
               </div>
@@ -60,12 +60,12 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2024&nbsp;<a href="index.html">Teknik Informatika Unusia</a></p>
+                <p class="copyright font-alt">&copy; 2024&nbsp;<a href="/login">Teknik Informatika Unusia</a></p>
               </div>
-              <div class="col-sm-6">
+              <!-- <div class="col-sm-6">
                 <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </footer>
