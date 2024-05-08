@@ -35,7 +35,7 @@ class PostController extends BaseController
                 'title' => 'Rilis Berita',
                 'active' => 'Post'
             ];
-            return view('post_view', $data);
+            return view('post_viewx', $data);
         }
         if (!$this->postviewModel->get_post_by_slug($slug)->getRowArray()) {
             return redirect()->to('post');

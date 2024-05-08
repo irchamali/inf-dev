@@ -6,7 +6,7 @@
           <div class="caption-content">
             <div class="font-alt mb-30 titan-title-size-1">Teknik Informatika Unusia</div>
             <div class="font-alt mb-40 titan-title-size-3">Kuliah <span class="rotate">Komputasi | Sains Data | Pemrograman | Jaringan</span>
-            </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
+            </div><a class="section-scroll btn btn-border-w btn-circle" href="#profil">Learn More</a>
           </div>
         </div>
       </section>
@@ -62,7 +62,7 @@
             </div>
           </div>
         </section>
-        <section class="module bg-dark-60" data-background="assets/titan/images/section-6.jpg">
+        <section class="module bg-dark-60" id="profil" data-background="assets/titan/images/section-6.jpg">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
