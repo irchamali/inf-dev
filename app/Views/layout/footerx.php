@@ -35,20 +35,18 @@
                 <div class="widget">
                   <h5 class="widget-title font-alt">Popular Posts</h5>
                   <ul class="widget-posts">
-                    <!-- <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="assets/titan/images/rp-1.jpg" alt="Post Thumbnail"/></a></div>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="https://jombang.nu.or.id/daerah/jejak-ircham-ali-pemuda-asal-jombang-kini-jadi-kaprodi-ti-unusia-jakarta-kzqFz"><img src="https://storage.nu.or.id/storage/post/16_9/big/img-20211107-wa0036_1636297760.jpg" alt="Post Thumbnail"/></a></div>
                       <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Designer Desk Essentials</a></div>
-                        <div class="widget-posts-meta">23 january</div>
+                        <div class="widget-posts-title"><a href="https://jombang.nu.or.id/daerah/jejak-ircham-ali-pemuda-asal-jombang-kini-jadi-kaprodi-ti-unusia-jakarta-kzqFz">Ircham Ali, Kaprodi Teknik Informatika 2021-2025</a></div>
                       </div>
                     </li>
                     <li class="clearfix">
-                      <div class="widget-posts-image"><a href="#"><img src="assets/titan/images/rp-2.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-image"><a href="https://www.nu.or.id/daerah/prodi-teknik-informatika-unusia-kenalkan-perancangan-teknologi-komunikasi-jarak-jauh-pDc7h"><img src="https://storage.nu.or.id/storage/post/16_9/mid/pelatihan-voip-unusia-istimewa-news_1639008853.jpg" alt="Post Thumbnail"/></a></div>
                       <div class="widget-posts-body">
-                        <div class="widget-posts-title"><a href="#">Realistic Business Card Mockup</a></div>
-                        <div class="widget-posts-meta">15 February</div>
+                        <div class="widget-posts-title"><a href="https://www.nu.or.id/daerah/prodi-teknik-informatika-unusia-kenalkan-perancangan-teknologi-komunikasi-jarak-jauh-pDc7h">Teknik Informatika, Kenalkan Teknologi VoIP (Voice Over Internet Protocol)</a></div>
                       </div>
-                    </li> -->
+                    </li>
                   </ul>
                 </div>
               </div>

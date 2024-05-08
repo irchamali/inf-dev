@@ -15,7 +15,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Ranah Keilmuan</h2>
+                <h2 class="module-title font-alt">Teknik Informatika</h2>
                 <div class="module-subtitle font-serif">Kenali lebih dekat ranah keilmuan atau bidang kajian yang diajarkan pada bidang Teknik Informatika atau Ilmu Komputer.</div>
               </div>
             </div>
@@ -246,51 +246,13 @@
           <div class="container">
             <div class="row client">
               <div class="owl-carousel text-center" data-items="6" data-pagination="false" data-navigation="false">
+              <?php foreach ($members as $member) : ?>
                 <div class="owl-item">
                   <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-1.png" alt="Client Logo"/></div>
+                    <div class="client-logo"><img src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" alt="Client Logo"/></div>
                   </div>
                 </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-5.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-1.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/titan/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
+              <?php endforeach; ?>
               </div>
             </div>
           </div>
