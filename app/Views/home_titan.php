@@ -81,7 +81,6 @@
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">Latest posts</h2>
-                <!-- <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div> -->
               </div>
             </div>
             <div class="row multi-columns-row post-columns">
@@ -190,6 +189,7 @@
         <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/titan/images/testimonial_bg.jpg">
           <div class="testimonials-slider pt-140 pb-140">
             <ul class="slides">
+            <?php foreach ($testimonials as $testi) : ?>
               <li>
                 <div class="container">
                   <div class="row">
@@ -199,46 +199,22 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</blockquote>
+                      <blockquote class="testimonial-text font-alt"><?= $testi['testimonial_content']; ?></blockquote>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-sm-4 col-sm-offset-4">
                       <div class="testimonial-author">
                         <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jack Woods</div>
-                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                          <div class="testimonial-title"><?= $testi['testimonial_name']; ?></div>
+                          <div class="testimonial-descr"><?= $testi['testimonial_angkatan']; ?></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="module-icon"><span class="icon-quote"></span></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</blockquote>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                      <div class="testimonial-author">
-                        <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title">Jim Stone</div>
-                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              
+            <?php endforeach; ?>
             </ul>
           </div>
         </section>
@@ -258,23 +234,6 @@
           </div>
         </section>
         
-        <!-- <section class="module-small bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-                <div class="callout-text font-alt">
-                  <h3 class="callout-title">Want to see more activities?</h3>
-                  <p>We are always open to interesting programs.</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="#">Lets view portfolio</a></div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        
         <hr class="divider-w">
-        
 
 <?= $this->endSection(); ?>
