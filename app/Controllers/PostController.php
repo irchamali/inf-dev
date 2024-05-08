@@ -8,6 +8,7 @@ use App\Models\CommentModel;
 use App\Models\HomeModel;
 use App\Models\PostviewModel;
 use App\Models\SiteModel;
+use App\Models\CategoryModel;
 use App\Models\TagModel;
 
 class PostController extends BaseController
@@ -19,6 +20,7 @@ class PostController extends BaseController
         $this->aboutModel = new AboutModel();
         $this->postviewModel = new PostviewModel();
         $this->tagModel = new TagModel();
+        $this->categoryModel = new CategoryModel();
         $this->commentModel = new CommentModel();
     }
     public function index($slug = null)
@@ -56,12 +58,13 @@ class PostController extends BaseController
             'post' => $post,
             'post_tags' => $post_tags,
             'related_post' => $this->postviewModel->get_related_post($category_id, $post_id)->getResultArray(),
+            'categories' => $this->categoryModel->findAll(),
             'tags' => $this->tagModel->findAll(),
             'comments' => $this->commentModel->show_comments($post_id)->getResultArray(),
             'title' => 'Post',
             'active' => 'Post'
         ];
-        return view('post_detail', $data);
+        return view('post_detailx', $data);
     }
     public function search()
     {

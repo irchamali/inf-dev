@@ -5,7 +5,6 @@
                 <div class="widget">
                   <h5 class="widget-title font-alt">Tentang TI UNUSIA</h5>
                   <p>Teknik Informatika Unversitas Nahdlatul Ulama Indonesia (TI UNUSIA) merupakan Program Studi yang Memiliki Kekhasan dalam bidang Pengembangan Perangkat Lunak dan Sistem Cerdas.</p>
-                  
                 </div>
               </div>
               <div class="col-sm-3">
@@ -70,22 +69,19 @@
       </div>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
-    <!--  
-    JavaScripts
-    =============================================
-    -->
-    <script src="assets/titan/lib/jquery/dist/jquery.js"></script>
-    <script src="assets/titan/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/titan/lib/wow/dist/wow.js"></script>
-    <script src="assets/titan/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="assets/titan/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="assets/titan/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="assets/titan/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="assets/titan/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="assets/titan/lib/smoothscroll.js"></script>
-    <script src="assets/titan/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="assets/titan/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="assets/titan/js/plugins.js"></script>
-    <script src="assets/titan/js/main.js"></script>
+    <!--  JavaScripts ============================================= -->
+    <script src="<?= base_url(''); ?>assets/titan/lib/jquery/dist/jquery.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/wow/dist/wow.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/smoothscroll.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/js/plugins.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/js/main.js"></script>
   </body>
 </html>

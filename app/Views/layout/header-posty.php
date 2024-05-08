@@ -25,7 +25,7 @@
     <meta name="msapplication-TileImage" content="<?= base_url(''); ?>assets/titan/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--  Stylesheets ============================================= -->
-    <!-- Default stylesheets-->
+    <!-- Default stylesheets -->
     <link href="<?= base_url(''); ?>assets/titan/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -36,10 +36,10 @@
     <link href="<?= base_url(''); ?>assets/titan/lib/et-line-font/et-line-font.css" rel="stylesheet">
     <link href="<?= base_url(''); ?>assets/titan/lib/flexslider/flexslider.css" rel="stylesheet">
     <link href="<?= base_url(''); ?>assets/titan/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?= base_url(''); ?>assets/titan/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="<?= base_url(''); ?>assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="<?= base_url(''); ?>assets/titan/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
     <link href="<?= base_url(''); ?>assets/titan/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-    <!-- Main stylesheet and color file -->
+    <!-- Main stylesheet and color file-->
     <link href="<?= base_url(''); ?>assets/titan/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="<?= base_url(''); ?>assets/titan/css/colors/default.css" rel="stylesheet">
   </head>
@@ -51,7 +51,7 @@
       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">Teknik Informatika</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Teknik Informatika</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -98,4 +98,3 @@
         </div>
       </nav>
       <div class="main">
-        
