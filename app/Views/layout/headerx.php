@@ -70,14 +70,11 @@
 
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="alerts-and-wells.html"><i class="fa fa-bolt"></i> Profil</a></li>
-                  <li><a href="buttons.html"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
-                  <li><a href="tabs_and_accordions.html"><i class="fa fa-tasks"></i> Dosen</a></li>
-                  <li><a href="content_box.html"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
-                  <li><a href="forms.html"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
-                  <!-- <li><a href="icons.html"><i class="fa fa-star"></i> Icons</a></li>
-                  <li><a href="progress-bars.html"><i class="fa fa-server"></i> Progress Bars</a></li>
-                  <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li> -->
+                  <li><a href="#"><i class="fa fa-bolt"></i> Profil</a></li>
+                  <li><a href="#"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
+                  <li><a href="#"><i class="fa fa-tasks"></i> Dosen</a></li>
+                  <li><a href="#"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
+                  <li><a href="#"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
                 </ul>
               </li>
 
@@ -85,19 +82,18 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Posts</a>
                     <ul class="dropdown-menu">
-                      <li><a href="about1.html">Berita</a></li>
-                      <li><a href="about2.html">Event</a></li>
-                      <li><a href="about3.html">Pengumuman</a></li>
+                      <li><a href="/post">Berita</a></li>
+                      <li><a href="#">Pengumuman</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Sidang</a>
                     <ul class="dropdown-menu">
-                      <li><a href="restaurant_menu1.html">Skripsi</a></li>
-                      <li><a href="restaurant_menu2.html">Magang</a></li>
+                      <li><a href="#">Skripsi</a></li>
+                      <li><a href="#">Magang</a></li>
                     </ul>
                   </li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="404.html">Page 404</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Page 404</a></li>
                 </ul>
               </li>
 

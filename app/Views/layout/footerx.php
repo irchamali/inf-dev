@@ -12,11 +12,11 @@
                 <div class="widget">
                   <h5 class="widget-title font-alt">Sosial Media</h5>
                   <ul class="icon-list">
-                    <li>Email <a href="mailto:informatika@unusia.ac.id">informatika@unusia.ac.id</a></li>
-                    <li>WhatsApp <a href="#">Click for WA me</a></li>
-                    <li>Instagram <a href="https://instagram.com/teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
-                    <li>TikTok <a href="https://tiktok.com/@teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
-                    <li>FaceBook <a href="https://facebook.com/teknikinformatikaunusia">Teknik Informatika Unusia</a></li>
+                    <li>Email <a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a></li>
+                    <li>WhatsApp <a href="https://wa.me/<?= $site['site_wa']; ?>">Click for WA me</a></li>
+                    <li>Instagram <a href="<?= $site['site_instagram']; ?>">Teknik Informatika Unusia</a></li>
+                    <li>TikTok <a href="<?= $site['site_twitter']; ?>">Teknik Informatika Unusia</a></li>
+                    <li>Facebook <a href="<?= $site['site_facebook']; ?>">Teknik Informatika Unusia</a></li>
                   </ul>
                 </div>
               </div>
