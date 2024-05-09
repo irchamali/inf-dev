@@ -17,9 +17,9 @@
                 <div class="team-item">
                   <div class="team-image"><img src="assets/titan/images/dosen/ti-ircham.jpg" alt="Member Photo"/>
                     <div class="team-detail">
-                      <h5 class="font-alt">Hi all</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                      <h5 class="font-alt">Halo Semua!</h5>
+                      <p class="font-serif">Salam kenal dan sampai jumpa di perkuliahan ya.</p>
+                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                   </div>
                   <div class="team-descr font-alt">
@@ -32,9 +32,9 @@
                 <div class="team-item">
                   <div class="team-image"><img src="assets/titan/images/dosen/ti-aljabar.jpg" alt="Member Photo"/>
                     <div class="team-detail">
-                      <h5 class="font-alt">Hi all</h5>
-                      <p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis diam.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                    <h5 class="font-alt">Halo Semua!</h5>
+                      <p class="font-serif">Salam kenal dan sampai jumpa di perkuliahan ya.</p>
+                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                   </div>
                   <div class="team-descr font-alt">
