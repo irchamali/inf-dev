@@ -51,7 +51,7 @@
       <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Teknik Informatika</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">Teknik Informatika</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -60,11 +60,11 @@
 
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#"><i class="fa fa-bolt"></i> Profil</a></li>
-                  <li><a href="#"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
-                  <li><a href="#"><i class="fa fa-tasks"></i> Dosen</a></li>
-                  <li><a href="#"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
-                  <li><a href="#"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
+                  <li><a href="<?= base_url(''); ?>profil"><i class="fa fa-bolt"></i> Profil</a></li>
+                  <li><a href="<?= base_url(''); ?>pengelola"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
+                  <li><a href="<?= base_url(''); ?>dosen"><i class="fa fa-tasks"></i> Dosen</a></li>
+                  <li><a href="<?= base_url(''); ?>kurikulum"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
+                  <li><a href="<?= base_url(''); ?>pemintan"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
                 </ul>
               </li>
 
@@ -72,7 +72,7 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Posts</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/post">Berita</a></li>
+                      <li><a href="<?= base_url(''); ?>post">Berita</a></li>
                       <li><a href="#">Pengumuman</a></li>
                     </ul>
                   </li>

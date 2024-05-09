@@ -60,11 +60,11 @@
 
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#"><i class="fa fa-bolt"></i> Profil</a></li>
-                  <li><a href="#"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
-                  <li><a href="#"><i class="fa fa-tasks"></i> Dosen</a></li>
-                  <li><a href="#"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
-                  <li><a href="#"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
+                  <li><a href="<?= base_url(''); ?>profil"><i class="fa fa-bolt"></i> Profil</a></li>
+                  <li><a href="<?= base_url(''); ?>pengelola"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
+                  <li><a href="<?= base_url(''); ?>dosen"><i class="fa fa-tasks"></i> Dosen</a></li>
+                  <li><a href="<?= base_url(''); ?>kurikulum"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
+                  <li><a href="<?= base_url(''); ?>pemintan"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
                 </ul>
               </li>
 
@@ -72,7 +72,7 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Posts</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/post">Berita</a></li>
+                      <li><a href="<?= base_url(''); ?>post">Berita</a></li>
                       <li><a href="#">Pengumuman</a></li>
                     </ul>
                   </li>
