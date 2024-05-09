@@ -62,6 +62,12 @@ $routes->get('document/(:segment)', 'CategoryDocsController::index/$1');
 $routes->get('laporan/(:segment)', 'CategoryLapController::index/$1');
 
 // AboutController
+$routes->get('profil', 'AbProfilController::index');
+$routes->get('pengelola', 'AbPengelolaController::index');
+$routes->get('dosen', 'AbDosenController::index');
+$routes->get('kurikulum', 'AbKurikulumController::index');
+$routes->get('dosen', 'AbPeminatanController::index');
+
 $routes->get('about', 'AboutController::index');
 $routes->get('strategymap', 'AbStrategymapController::index');
 $routes->get('milestone', 'AbMilestoneController::index');
