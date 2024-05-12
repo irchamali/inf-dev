@@ -9,7 +9,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Login | LPPMI UNUSIA</title>
+    <title>Login | Teknik Informatika Unusia</title>
 
     <!-- ===============================================-->
     <!--    Favicons-->
@@ -65,10 +65,10 @@
         <div class="container">
           <div class="row min-vh-100 align-items-center">
             <div class="col-md-8 col-lg-5 mx-auto" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="mb-5" data-zanim-xs='{"delay":0,"duration":1}'><a href="/"><img src="/assets/elixir/assets/img/logo-light1.png" alt="logo" /></a></div>
+              <!-- <div class="mb-5" data-zanim-xs='{"delay":0,"duration":1}'><a href="/"><img src="" alt="logo" /></a></div> -->
               <div class="card" data-zanim-xs='{"delay":0.1,"duration":1}'>
                 <div class="card-body p-md-5">
-                  <h4 class="text-uppercase fs-0 fs-md-1">login with Lppmi</h4>
+                  <h4 class="text-uppercase fs-0 fs-md-1">login here</h4>
                     <?php if (session()->getFlashData('pesan')) : ?>
                         <div class="alert alert-warning" role="alert">
                         <?= session()->getFlashData('pesan') ?>
