@@ -57,10 +57,9 @@ class TeamAdminController extends BaseController
                 ]
             ],
             'facebook' => [
-                'rules' => 'required|valid_url_strict',
+                'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom {field} harus diisi!',
-                    'valid_url_strict' => 'Inputan harus berformat url'
+                    'required' => 'Kolom {field} harus diisi!'
                 ]
             ],
             'instagram' => [
@@ -137,10 +136,9 @@ class TeamAdminController extends BaseController
                 ]
             ],
             'facebook' => [
-                'rules' => 'required|valid_url_strict',
+                'rules' => 'required',
                 'errors' => [
-                    'required' => 'Kolom {field} harus diisi!',
-                    'valid_url_strict' => 'Inputan harus berformat url'
+                    'required' => 'Kolom {field} harus diisi!'
                 ]
             ],
             'instagram' => [

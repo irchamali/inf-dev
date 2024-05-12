@@ -44,6 +44,9 @@
     <!-- Main stylesheet and color file -->
     <link href="<?= base_url(''); ?>assets/titan/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="<?= base_url(''); ?>assets/titan/css/colors/default.css" rel="stylesheet">
+    <!-- DataTables -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
