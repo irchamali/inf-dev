@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  Document Title ============================================= -->
-    <title><?= $title; ?> | <?= $site['site_name']; ?></title>
+    <title><?= $title; ?> | Teknik Informatika Unusia</title>
     <meta content="<?= $post['post_description'] ?? $site['site_description']; ?>" name="description">
     <meta content="Teknik Informatika, UNUSIA, TI UNUSIA, NU, Universitas Nahdlatul Ulama Indonesia" name="keywords">
     <!--  Favicons ============================================= -->

@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  Document Title ============================================= -->
-    <title>TI UNUSIA | Teknik Informatika</title>
+    <title><?= $post['post_title']; ?></title>
+    <meta content="<?= $post['post_description'] ?? $site['site_description']; ?>" name="description">
+    <!-- SEO Tag -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image" content="<?= base_url('/assets/backend/images/post/') . $post['post_image']; ?>">
+    <meta property="og:image:secure_url" content="<?= base_url('/assets/backend/images/post/') . $post['post_image']; ?>" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
     <!--  Favicons ============================================= -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= base_url(''); ?>assets/titan/images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?= base_url(''); ?>assets/titan/images/favicons/apple-icon-60x60.png">

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--  Document Title ============================================= -->
-    <title>TI UNUSIA | Teknik Informatika</title>
+    <title><?= $title; ?> | Teknik Informatika Unusia</title>
     <!--  Favicons ============================================= -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= base_url(''); ?>assets/titan/images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?= base_url(''); ?>assets/titan/images/favicons/apple-icon-60x60.png">
