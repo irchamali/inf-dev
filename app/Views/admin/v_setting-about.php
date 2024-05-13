@@ -58,6 +58,12 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label for="input1" class="col-sm-2 control-label">Profil Singkat</label>
+                                        <div class="col-sm-10">
+                                            <textarea name="description" class="form-control" rows="6" placeholder="Description"><?= $abouts['about_description']; ?></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
                                         <label for="input1" class="col-sm-2 control-label">Visi</label>
                                         <div class="col-sm-10">
                                             <textarea name="visi" class="form-control" rows="2" placeholder="visi"><?= $abouts['about_visi']; ?></textarea>
@@ -66,13 +72,7 @@
                                     <div class="form-group">
                                         <label for="input1" class="col-sm-2 control-label">Misi</label>
                                         <div class="col-sm-10">
-                                            <textarea name="misi" class="form-control" rows="14" placeholder="Misi"><?= $abouts['about_misi']; ?></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="input1" class="col-sm-2 control-label">Profil Singkat</label>
-                                        <div class="col-sm-10">
-                                            <textarea name="description" class="form-control" rows="6" placeholder="Description"><?= $abouts['about_description']; ?></textarea>
+                                            <textarea name="misi" class="form-control" rows="6" placeholder="Misi"><?= $abouts['about_misi']; ?></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">

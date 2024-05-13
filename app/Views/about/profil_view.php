@@ -8,7 +8,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-sm-offset-2">
-                <h4 class="font-alt mb-0">Profil Program Studi</h4>
+                <h4 class="font-alt mb-0">Teknik Informatika Unusia</h4>
                 <hr class="divider-w mt-10 mb-20">
                 <div role="tabpanel">
                   <ul class="nav nav-tabs font-alt" role="tablist">
@@ -44,7 +44,12 @@
                       <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#misi">Misi</a></h4>
                     </div>
                     <div class="panel-collapse collapse" id="misi">
-                      <div class="panel-body"><?= $about['about_misi']; ?>
+                      <div class="panel-body">
+                        <ol>
+                          <li> Menyelenggarakan pendidikan program sarjana yang berstandar nasional untuk bidang teknik informatika, khususnya pada rekayasa perangkat lunak dan sistem cerdas; Melaksanakan penelitian dalam rangka pengembangan ilmu pengetahuan dan teknologi yang berwujud perangkat lunak dengan konsep sistem cerdas; </li>
+                          <li>Berpartisipasi dalam memberikan layanan kepada masyarakat dan komunitas profesi bidang Teknik Informatika, khususnya komunitas yang relevan dengan pengembangan perangkat lunak dan sistem cerdas; </li>
+                          <li> Berkolaborasi dengan stakeholder pemerintah, industri, maupun alumni, dalam rangka mengembangkan bisnis digital dalam bidang Teknik Informatika atau bidang lainnya yang relevan dengan ilmu komputasi.</li>
+                        </ol>
                       </div>
                     </div>
                   </div>
@@ -53,7 +58,13 @@
                       <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tujuan">Tujuan</a></h4>
                     </div>
                     <div class="panel-collapse collapse" id="tujuan">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                      <div class="panel-body">
+                        <ol>
+                          <li> Dihasilkannya lulusan yang memiliki kompetensi secara nasional di bidang Teknik Informatika khususnya bidang rekayasa perangkat lunak dan sistem cerdas yang berkarakter ahlussunah waljamaah; </li>
+                          <li>Dihasilkannya karya ilmiah pada bidang Teknik Informatika khususnya bidang rekayasa perangkat lunak dan sistem cerdas, yang kemudian disebarluaskan pada publikasi terindeks secara nasional; </li>
+                          <li> Dilaksanakannya kegiatan dan implementasi kewirausahaan berbasis digital yang berkontribusi dalam peningkatan kesejahteraan masyarakat;</li>
+                          <li>Melaksanakan tata kelola program studi teknik informatika secara profesional dan berbasis teknologi.</li>
+                        </ol>
                       </div>
                     </div>
                   </div>
@@ -62,7 +73,14 @@
                       <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#strategi">Strategi</a></h4>
                     </div>
                     <div class="panel-collapse collapse" id="strategi">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                      <div class="panel-body">
+                        <ol>
+                          <li><b>Kurikulum</b>: Evaluasi kurikulum dilakukan untuk mencapai visi dan misi Program Studi S1 Teknik Informatika. Kurikulum yang disusun pada program studi S1 Teknik Informatika ini adalah kurikulum yang berbasis KKNI/OBE dan menuju pengembangan kurikulum MBKM; </li>
+                          <li><b>Tata Kelola</b>: Melaksanakan tata kelola program studi secara profesional sesuai prinsip continuous quality improvement; </li>
+                          <li><b>Sumber Daya Manusia</b>: Pengembangan kualitas dan kuantitas dosen dan mahasiswa dilakukan berdasarkan kompetensi yang dibutuhkan di program studi teknik Informatika;</li>
+                          <li><b>Infrastruktur</b>: Sarana pembelajaran seperti ruang kuliah dan laboratorium komputer dipersiapkan dengan baik dengan didukung sarana dan prasarana yang baik; </li>
+                          <li><b>Penelitian dan Pengabdian</b>: Meningkatkan produk penelitian atau publikasi ilmiah dan pengabdian masyarakat secara mandiri maupun kolaborasi dosen dengan mahasiswa dan lintas institusi.</li>
+                        </ol>
                       </div>
                     </div>
                   </div>

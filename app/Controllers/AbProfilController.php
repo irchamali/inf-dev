@@ -26,7 +26,7 @@ class AbProfilController extends BaseController
             'home' => $this->homeModel->find(1),
             'about' => $this->aboutModel->find(1),
             
-            'title' => 'Teknik Informatika Unusia',
+            'title' => 'Profil Program Studi',
             'active' => 'About'
         ];
         return view('about/profil_view', $data);
