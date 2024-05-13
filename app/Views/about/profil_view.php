@@ -12,16 +12,82 @@
                 <hr class="divider-w mt-10 mb-20">
                 <div role="tabpanel">
                   <ul class="nav nav-tabs font-alt" role="tablist">
-                    <li class="active"><a href="#tentang" data-toggle="tab"><span class="icon-ribbon"></span> Tentang</a></li>
-                    <li><a href="#capaian" data-toggle="tab"><span class="icon-lightbulb"></span> Capaian</a></li>
+                    <li class="active"><a href="#tentang" data-toggle="tab"><span class="icon-ribbon"></span> Profil</a></li>
+                    <li><a href="#capaian" data-toggle="tab"><span class="icon-lightbulb"></span> Lulusan</a></li>
                     <li><a href="#kepemimpinan" data-toggle="tab"><span class="icon-profile-male"></span> Kepemimpinan</a></li>
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane active" id="tentang"><?= $about['about_description']; ?>
                     </div>
-                    <div class="tab-pane" id="capaian">Profil Lulusan
+                    <div class="tab-pane" id="capaian">
+                      <img src="/assets/backend/images/about/profil_lulusan.png" alt="" width="100%">
                     </div>
                     <div class="tab-pane" id="kepemimpinan">Tabel Kaprodi
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h2 class="font-serif text-center">Semester 1</h2>
+                          <table class="table table-striped table-border checkout-table">
+                            <tbody>
+                              <tr>
+                                <th>#</th>
+                                <th class="hidden-xs">Kode</th>
+                                <th>Mata Kuliah</th>
+                                <th>SKS</th>
+                                <th>Ket.</th>
+                              </tr>
+                              <tr>
+                                  <td>
+                                      <h5 class="product-title font-alt">1</h5>
+                                  </td>
+                                  <td class="hidden-xs">
+                                      <h5 class="product-title font-alt">1</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">Islam dan Ke-NU-an 1</h5>
+                                  </td>
+                                  <td>
+                                  <h5 class="product-title font-alt">2</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">-</h5>
+                                  </td>
+                              </tr>
+                              <td>
+                                      <h5 class="product-title font-alt">2</h5>
+                                  </td>
+                                  <td class="hidden-xs">
+                                      <h5 class="product-title font-alt">1</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">Bahasa Indonesia 1</h5>
+                                  </td>
+                                  <td>
+                                  <h5 class="product-title font-alt">2</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">-</h5>
+                                  </td>
+                              </tr>
+                              <td>
+                                      <h5 class="product-title font-alt">3</h5>
+                                  </td>
+                                  <td class="hidden-xs">
+                                      <h5 class="product-title font-alt">1</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">Coba</h5>
+                                  </td>
+                                  <td>
+                                  <h5 class="product-title font-alt">2</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">-</h5>
+                                  </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -81,6 +147,73 @@
                           <li><b>Infrastruktur</b>: Sarana pembelajaran seperti ruang kuliah dan laboratorium komputer dipersiapkan dengan baik dengan didukung sarana dan prasarana yang baik; </li>
                           <li><b>Penelitian dan Pengabdian</b>: Meningkatkan produk penelitian atau publikasi ilmiah dan pengabdian masyarakat secara mandiri maupun kolaborasi dosen dengan mahasiswa dan lintas institusi.</li>
                         </ol>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <h2 class="font-serif text-center">Semester 1</h2>
+                              <table class="table table-striped table-border checkout-table">
+                                <tbody>
+                                  <tr>
+                                    <th>#</th>
+                                    <th class="hidden-xs">Kode</th>
+                                    <th>Mata Kuliah</th>
+                                    <th>SKS</th>
+                                    <th>Ket.</th>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <h5 class="product-title font-alt">1</h5>
+                                      </td>
+                                      <td class="hidden-xs">
+                                          <h5 class="product-title font-alt">1</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">Islam dan Ke-NU-an 1</h5>
+                                      </td>
+                                      <td>
+                                      <h5 class="product-title font-alt">2</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">-</h5>
+                                      </td>
+                                  </tr>
+                                  <td>
+                                          <h5 class="product-title font-alt">2</h5>
+                                      </td>
+                                      <td class="hidden-xs">
+                                          <h5 class="product-title font-alt">1</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">Bahasa Indonesia 1</h5>
+                                      </td>
+                                      <td>
+                                      <h5 class="product-title font-alt">2</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">-</h5>
+                                      </td>
+                                  </tr>
+                                      <td>
+                                          <h5 class="product-title font-alt">3</h5>
+                                      </td>
+                                      <td class="hidden-xs">
+                                          <h5 class="product-title font-alt">1</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">Coba</h5>
+                                      </td>
+                                      <td>
+                                      <h5 class="product-title font-alt">2</h5>
+                                      </td>
+                                      <td>
+                                          <h5 class="product-title font-serif">-</h5>
+                                      </td>
+                                  </tr>
+                                  
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
