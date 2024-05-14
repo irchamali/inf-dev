@@ -69,7 +69,13 @@
                   <li><a href="<?= base_url(''); ?>pengelola"><i class="fa fa-link fa-sm"></i> Pengelola</a></li>
                   <li><a href="<?= base_url(''); ?>dosen"><i class="fa fa-tasks"></i> Dosen</a></li>
                   <li><a href="<?= base_url(''); ?>kurikulum"><i class="fa fa-list-alt"></i> Kurikulum</a></li>
-                  <li><a href="<?= base_url(''); ?>pemintan"><i class="fa fa-check-square-o"></i> Peminatan</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-check-square-o"></i> Peminatan</a></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="<?= base_url(''); ?>softwaredevelopment"> Software Development</a></li>
+                      <li><a href="<?= base_url(''); ?>networkengineering"> Network Engineering</a></li>
+                      <li><a href="<?= base_url(''); ?>intelligentsystem"> Intelligent System</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
 
@@ -77,8 +83,9 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Posts</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/post">Berita</a></li>
-                      <li><a href="#">Pengumuman</a></li>
+                      <li><a href="<?= base_url(''); ?>post">Berita</a></li>
+                      <li><a href="<?= base_url(''); ?>category/pengumuman">Pengumuman</a></li>
+                      <li><a href="<?= base_url(''); ?>category/acara">Acara</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Sidang</a>

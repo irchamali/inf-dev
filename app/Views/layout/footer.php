@@ -1,90 +1,87 @@
-<!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
-
-    <div class="container">
-        <div class="row gy-4">
-            <div class="col-lg-5 col-md-12 footer-info">
-                <a href="index.html" class="logo d-flex align-items-center">
-                    <span><?= $about['about_name']; ?></span>
-                </a>
-                <p><?= $site['site_description']; ?></p>
-                <div class="social-links d-flex mt-4">
-                    <a href="<?= $site['site_twitter']; ?>" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="<?= $site['site_facebook']; ?>" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="<?= $site['site_instagram']; ?>" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="<?= $site['site_linkedin']; ?>" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Tentang TI UNUSIA</h5>
+                  <p>Teknik Informatika Unversitas Nahdlatul Ulama Indonesia (TI UNUSIA) merupakan Program Studi yang Memiliki Kekhasan dalam bidang Pengembangan Perangkat Lunak dan Sistem Cerdas.</p>
                 </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Sosial Media</h5>
+                  <ul class="icon-list">
+                    <li>Email <a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a></li>
+                    <li>WhatsApp <a href="https://wa.me/<?= $site['site_wa']; ?>">Click for WA me</a></li>
+                    <li>Instagram <a href="<?= $site['site_instagram']; ?>">Teknik Informatika Unusia</a></li>
+                    <li>TikTok <a href="<?= $site['site_twitter']; ?>">Teknik Informatika Unusia</a></li>
+                    <li>Facebook <a href="<?= $site['site_facebook']; ?>">Teknik Informatika Unusia</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Informasi Berguna</h5>
+                  <ul class="icon-list">
+                    <li><a href="https://youtu.be/yPGNLD3cVLs?si=KxEtdVmEawaMQ7Es">Video Profil</a></li>
+                    <li><a href="https://youtu.be/zKZt0GUluaI?si=eX9Mn0S4I0_gorqC">Podcast</a></li>
+                    <li><a href="https://pmb.unusia.ac.id">Pendaftaran</a></li>
+                    <li><a href="https://github.com/unusialabs">Repository</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Popular Posts</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="https://jombang.nu.or.id/daerah/jejak-ircham-ali-pemuda-asal-jombang-kini-jadi-kaprodi-ti-unusia-jakarta-kzqFz"><img src="https://storage.nu.or.id/storage/post/16_9/big/img-20211107-wa0036_1636297760.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="https://jombang.nu.or.id/daerah/jejak-ircham-ali-pemuda-asal-jombang-kini-jadi-kaprodi-ti-unusia-jakarta-kzqFz">Ircham Ali, Kaprodi Teknik Informatika 2021-2025</a></div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="https://www.nu.or.id/daerah/prodi-teknik-informatika-unusia-kenalkan-perancangan-teknologi-komunikasi-jarak-jauh-pDc7h"><img src="https://storage.nu.or.id/storage/post/16_9/mid/pelatihan-voip-unusia-istimewa-news_1639008853.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="https://www.nu.or.id/daerah/prodi-teknik-informatika-unusia-kenalkan-perancangan-teknologi-komunikasi-jarak-jauh-pDc7h">Teknik Informatika, Kenalkan Teknologi VoIP (Voice Over Internet Protocol)</a></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-
-            <div class="col-lg-2 col-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                    <li><a href="/about">Tentang</a></li>
-                    <li><a href="/akreditasi">Akreditasi</a></li>
-                    <li><a href="/document">Dokumen</a></li>
-                    <li><a href="/laporan">Laporan</a></li>
-                    <!-- <li><a href="#">Privacy policy</a></li> -->
-                </ul>
-            </div>
-
-            <div class="col-lg-2 col-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><a href="/ami">Formulir</a></li>
-                    <li><a href="/team">SDM</a></li>
-                    <li><a href="/pengaduan">Pengaduan</a></li>
-                    <li><a href="/gallery">Galeri</a></li>
-                    <!-- <li><a href="#">Graphic Design</a></li> -->
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                <h4>Sekretariat</h4>
-                <p>
-                    <?= $site['site_address']; ?><br>
-                </p>
-
-            </div>
-
+          </div>
         </div>
-    </div>
-
-    <div class="container mt-4">
-        <div class="copyright">
-            &copy; Copyright <strong><span>UNUSIA</span></strong> <?= date('Y') ?>
-        </div>
-    </div>
-
-</footer><!-- End Footer -->
-<!-- End Footer -->
-
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<div id="preloader"></div>
-
-<!-- Vendor JS Files -->
-<script src="/assets/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/frontend/vendor/aos/aos.js"></script>
-<script src="/assets/frontend/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="/assets/frontend/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="/assets/frontend/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/assets/frontend/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="/assets/frontend/vendor/php-email-form/validate.js"></script>
-
-<!-- Template Main JS File -->
-<script src="/assets/frontend/js/main.js"></script>
-
-<!-- DataTables -->
-<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#mytable').DataTable();
-    });
-</script>
-
-</body>
-
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2024&nbsp;<a href="/login">Teknik Informatika Unusia</a></p>
+              </div>
+              <!-- <div class="col-sm-6">
+                <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  JavaScripts ============================================= -->
+    <script src="<?= base_url(''); ?>assets/titan/lib/jquery/dist/jquery.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/wow/dist/wow.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/smoothscroll.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/js/plugins.js"></script>
+    <script src="<?= base_url(''); ?>assets/titan/js/main.js"></script>
+  </body>
 </html>
