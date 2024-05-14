@@ -16,26 +16,26 @@
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">Teknik Informatika</h2>
-                <div class="module-subtitle font-serif">Kenali lebih dekat ranah keilmuan atau bidang kajian yang diajarkan pada bidang Teknik Informatika atau Ilmu Komputer.</div>
+                <div class="module-subtitle font-serif">Kenali lebih dekat ranah keilmuan atau area pengetahuan yang diajarkan pada bidang Teknik Informatika atau Ilmu Komputer.</div>
               </div>
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-strategy"></span></div>
-                  <h3 class="alt-features-title font-alt">Data System</h3>Description..
+                  <h3 class="alt-features-title font-alt">Data System</h3>terkait dengan pengetahuan yang mempelajari sistem ke-“data”-an sebagai atom konteks terkecil dalam sebuah lingkungan berbasis informatika;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
-                  <h3 class="alt-features-title font-alt">Algorithm</h3>Description..
+                  <h3 class="alt-features-title font-alt">Algorithm</h3>terkait dengan pengetahuan berfikir secara logis dan terstruktur dalam rangka memecahkan permasalahan tertentu atau mencapai obyektif tertentu;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-target"></span></div>
-                  <h3 class="alt-features-title font-alt">Program Building</h3>Description..
+                  <h3 class="alt-features-title font-alt">Program Building</h3>terkait dengan kemampuan membangun program sebagai suatu perangkat lunak yang dapat menjalankan fungsi spesifik tertentu;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                  <h3 class="alt-features-title font-alt">Computer Application</h3>Description..
+                  <h3 class="alt-features-title font-alt">Computer Application</h3>terkait dengan pengetahuan dan kemampuan menggabungkan sejumlah modul-modul program dalam rangka membuat sebuah aplikasi dengan fitur-fitur yang diinginkan;
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
@@ -44,19 +44,19 @@
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                  <h3 class="alt-features-title font-alt">Information System</h3>Description..
+                  <h3 class="alt-features-title font-alt">Information System</h3>terkait dengan pengetahuan membangun sebuah sistem informasi yang terdiri dari komponen-komponen yang terkait satu dengan lainnya dalam sebuah lingkungan yang holistik;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-mobile"></span></div>
-                  <h3 class="alt-features-title font-alt">Computer and Device</h3>Description..
+                  <h3 class="alt-features-title font-alt">Computer and Device</h3>terkait dengan pemahaman terhadap cara kerja mesin komputasi beserta piranti lain pendukungnya;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-                  <h3 class="alt-features-title font-alt">Intelligent System</h3>Description..
+                  <h3 class="alt-features-title font-alt">Intelligent System</h3>terkait dengan pemahaman dalam merancang dan membangun sistem cerdas untuk berbagai kebutuhan aktivitas kehidupan manusia yang memberikan nilai tambah;
                 </div>
                 <div class="alt-features-item">
                   <div class="alt-features-icon"><span class="icon-basket"></span></div>
-                  <h3 class="alt-features-title font-alt">Network and Communication</h3>Description..
+                  <h3 class="alt-features-title font-alt">Network and Communication</h3>terkait dengan pengetahuan mengenai seluk beluk jejaring komputer beserta mekanisme protokol komunikasinya;
                 </div>
               </div>
             </div>

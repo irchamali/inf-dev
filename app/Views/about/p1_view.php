@@ -35,10 +35,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI3538
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Pengembangan Aplikasi Mobile
                                                     </td>
                                                     <td>
                                                         3
@@ -52,10 +52,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3539
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Aplikasi Berbasis Service
                                                     </td>
                                                     <td>
                                                         2
@@ -96,10 +96,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3641	
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Pengembangan Aplikasi Web Framework
                                                     </td>
                                                     <td>
                                                         3
@@ -113,10 +113,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3640
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Pengembangan Aplikasi Desktop
                                                     </td>
                                                     <td>
                                                         2
@@ -156,10 +156,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI4742
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Manajemen Proyek Perangkat Lunak
                                                     </td>
                                                     <td>
                                                         3
@@ -173,10 +173,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI4743
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Quality Assurance Perangkat Lunak
                                                     </td>
                                                     <td>
                                                         2

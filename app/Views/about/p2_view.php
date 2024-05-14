@@ -35,10 +35,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI3532
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Teknik Perutean Jaringan
                                                     </td>
                                                     <td>
                                                         3
@@ -52,10 +52,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3533
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Teknik Administrasi Server
                                                     </td>
                                                     <td>
                                                         2
@@ -96,10 +96,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3634
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Pemrograman Jaringan
                                                     </td>
                                                     <td>
                                                         3
@@ -113,10 +113,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3635
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Komunikasi Data Nirkabel
                                                     </td>
                                                     <td>
                                                         2
@@ -156,10 +156,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI4736
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Keamanan Jaringan
                                                     </td>
                                                     <td>
                                                         3
@@ -173,10 +173,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI4737
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Teknik Simulasi Jaringan
                                                     </td>
                                                     <td>
                                                         2

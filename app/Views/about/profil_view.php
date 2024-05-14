@@ -37,54 +37,54 @@
                             <tbody>
                               <tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">1</h5>
+                                      1
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-alt">Ahmad Musyafa, S.Kom., M.Kom</h5>
+                                      Ahmad Musyafa, S.Kom., M.Kom
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">2016-2018</h5>
+                                      2016-2018
                                   </td>
                               </tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">2</h5>
+                                      2
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-alt">Irpan Kusyadi, S.Kom., M.Kom</h5>
+                                      Irpan Kusyadi, S.Kom., M.Kom
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">2018-2020</h5>
+                                      2018-2020
                                   </td>
                               </tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">3</h5>
+                                      3
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-alt">Musaid Purnomo Juwono, S.T., M.T.I</h5>
+                                      Musaid Purnomo Juwono, S.T., M.T.I
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">2020-2021</h5>
+                                      2020-2021
                                   </td>
                               </tr>
                               </tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">4</h5>
+                                      4
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-alt">Fezan Nabawi, M.M., M.Kom</h5>
+                                      Fezan Nabawi, M.M., M.Kom
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">Maret-November 2021</h5>
+                                      Mar-Nov 2021
                                   </td>
                               </tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">5</h5>
+                                      5
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-alt">Ircham Ali, S.Kom., M.Kom</h5>
+                                      Ircham Ali, S.Kom., M.Kom
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">2021-2025</h5>
+                                      2021-2025
                                   </td>
                               </tr>
                             </tbody>
@@ -144,7 +144,7 @@
                     <div class="panel-collapse collapse" id="strategi">
                       <div class="panel-body">
                         <ol>
-                          <li><b>Kurikulum</b>: Evaluasi kurikulum dilakukan untuk mencapai visi dan misi Program Studi S1 Teknik Informatika. Kurikulum yang disusun pada program studi S1 Teknik Informatika ini adalah kurikulum yang berbasis KKNI/OBE dan menuju pengembangan kurikulum MBKM; </li>
+                          <li><b>Kurikulum</b>: Kurikulum yang disusun pada program studi S1 Teknik Informatika merupakan kurikulum yang berbasis KKNI/OBE dan menuju pengembangan kurikulum MBKM; </li>
                           <li><b>Tata Kelola</b>: Melaksanakan tata kelola program studi secara profesional sesuai prinsip continuous quality improvement; </li>
                           <li><b>Sumber Daya Manusia</b>: Pengembangan kualitas dan kuantitas dosen dan mahasiswa dilakukan berdasarkan kompetensi yang dibutuhkan di program studi teknik Informatika;</li>
                           <li><b>Infrastruktur</b>: Sarana pembelajaran seperti ruang kuliah dan laboratorium komputer dipersiapkan dengan baik dengan didukung sarana dan prasarana yang baik; </li>

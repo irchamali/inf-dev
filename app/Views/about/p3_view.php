@@ -35,10 +35,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI3550 
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Advance Machine Learning
                                                     </td>
                                                     <td>
                                                         3
@@ -52,10 +52,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3551
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Representasi Pengetahuan
                                                     </td>
                                                     <td>
                                                         2
@@ -96,10 +96,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3652
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Natural Language Processing
                                                     </td>
                                                     <td>
                                                         3
@@ -113,10 +113,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI3653
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Data Modeling
                                                     </td>
                                                     <td>
                                                         2
@@ -156,10 +156,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        *
+                                                        TI4754
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Digital Forensics
                                                     </td>
                                                     <td>
                                                         3
@@ -173,10 +173,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        **
+                                                        TI4755
                                                     </td>
                                                     <td>
-                                                        Mata Kuliah Peminatan
+                                                        Data Mining
                                                     </td>
                                                     <td>
                                                         2

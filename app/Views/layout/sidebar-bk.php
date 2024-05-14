@@ -82,5 +82,5 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="http://unusia.ac.id" class="btn btn-lg btn-block btn-round btn-d">Download Dokumen</a>
+                        <a href="#" class="btn btn-lg btn-block btn-round btn-d">Download Dokumen</a>
                     </div>
