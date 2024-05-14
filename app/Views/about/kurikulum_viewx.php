@@ -9,8 +9,9 @@
             <h4>Sebaran Mata Kuliah Teknik Informatika</h4>
           <hr class="divider-w pt-10">
             <div class="row">
-                <div class="col-sm-8 col-md-7">
+                <div class="col-sm-7 col-md-6">
                     <div class="panel-group" id="accordion">
+                        <!-- semester1 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester1">Semester 1</a></h4>
@@ -190,6 +191,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester2 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester2">Semester 2</a></h4>
@@ -213,10 +215,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        MI1211
                                                     </td>
                                                     <td>
-                                                        Islam dan Ke-NU-an 1
+                                                        Islam dan Ke-NU-an 2
                                                     </td>
                                                     <td>
                                                         2
@@ -230,10 +232,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        MI1212	
                                                     </td>
                                                     <td>
-                                                        Bahasa Indonesia 1
+                                                        Filsafat Ilmu
                                                     </td>
                                                     <td>
                                                         2
@@ -247,10 +249,10 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        MI1213
                                                     </td>
                                                     <td>
-                                                        Bahasa Inggris 1
+                                                        Bahasa Indonesia 2
                                                     </td>
                                                     <td>
                                                         2
@@ -264,10 +266,10 @@
                                                         4
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1215
+                                                        ME1214
                                                     </td>
                                                     <td>
-                                                        Pendidikan Pancasila
+                                                        Digital Marketing
                                                     </td>
                                                     <td>
                                                         2
@@ -281,13 +283,13 @@
                                                         5
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1216
+                                                        TI2313
                                                     </td>
                                                     <td>
-                                                        Pendidikan Kewarganegaraan
+                                                        Interaksi Manusia dan Komputer
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -298,10 +300,10 @@
                                                         6
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1101
+                                                        TI1207
                                                     </td>
                                                     <td>
-                                                        Sistem Basis Data
+                                                        Pengantar Organisasi Komputer
                                                     </td>
                                                     <td>
                                                         3
@@ -315,10 +317,10 @@
                                                         7
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1102
+                                                        TI1208
                                                     </td>
                                                     <td>
-                                                        Dasar-dasar Pemrograman
+                                                        Aljabar Linear
                                                     </td>
                                                     <td>
                                                         3
@@ -332,10 +334,10 @@
                                                         8
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1104
+                                                        TI1209
                                                     </td>
                                                     <td>
-                                                        Kalkulus
+                                                        Matematika Diskrit
                                                     </td>
                                                     <td>
                                                         3
@@ -351,6 +353,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester3 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester3">Semester 3</a></h4>
@@ -374,10 +377,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        MI1110
                                                     </td>
                                                     <td>
-                                                        Islam dan Ke-NU-an 1
+                                                        Kewirausahaan
                                                     </td>
                                                     <td>
                                                         2
@@ -391,10 +394,10 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        MI2356
                                                     </td>
                                                     <td>
-                                                        Bahasa Indonesia 1
+                                                        Statistika dan Probabilitas
                                                     </td>
                                                     <td>
                                                         2
@@ -408,13 +411,13 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        TI2310
                                                     </td>
                                                     <td>
-                                                        Bahasa Inggris 1
+                                                        Pemrograman Berorientasi Objek
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -425,13 +428,13 @@
                                                         4
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1215
+                                                        TI2311
                                                     </td>
                                                     <td>
-                                                        Pendidikan Pancasila
+                                                        Sistem Operasi
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -442,13 +445,13 @@
                                                         5
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1216
+                                                        TI2312
                                                     </td>
                                                     <td>
-                                                        Pendidikan Kewarganegaraan
+                                                        Komputer dan Masyarakat
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -459,10 +462,10 @@
                                                         6
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1101
+                                                        TI1103
                                                     </td>
                                                     <td>
-                                                        Sistem Basis Data
+                                                        Struktur Data dan Algoritma
                                                     </td>
                                                     <td>
                                                         3
@@ -476,10 +479,10 @@
                                                         7
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1102
+                                                        TI2417
                                                     </td>
                                                     <td>
-                                                        Dasar-dasar Pemrograman
+                                                        Kecerdasan Buatan
                                                     </td>
                                                     <td>
                                                         3
@@ -493,10 +496,10 @@
                                                         8
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1104
+                                                        TI2315
                                                     </td>
                                                     <td>
-                                                        Kalkulus
+                                                        Jaringan Komputer
                                                     </td>
                                                     <td>
                                                         3
@@ -512,6 +515,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester4 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester4">Semester 4</a></h4>
@@ -535,10 +539,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        ME2415
                                                     </td>
                                                     <td>
-                                                        Islam dan Ke-NU-an 1
+                                                        E-Business
                                                     </td>
                                                     <td>
                                                         2
@@ -552,13 +556,13 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        TI2416
                                                     </td>
                                                     <td>
-                                                        Bahasa Indonesia 1
+                                                        Sistem Multimedia
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -569,10 +573,10 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        TI2314
                                                     </td>
                                                     <td>
-                                                        Bahasa Inggris 1
+                                                        Grafika Komputer
                                                     </td>
                                                     <td>
                                                         2
@@ -586,13 +590,13 @@
                                                         4
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1215
+                                                        TI2418
                                                     </td>
                                                     <td>
-                                                        Pendidikan Pancasila
+                                                        Machine Learning
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -603,13 +607,13 @@
                                                         5
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1216
+                                                        TI2419
                                                     </td>
                                                     <td>
-                                                        Pendidikan Kewarganegaraan
+                                                        Metode Numerik
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -620,10 +624,10 @@
                                                         6
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1101
+                                                        TI2420
                                                     </td>
                                                     <td>
-                                                        Sistem Basis Data
+                                                        Cloud Computing
                                                     </td>
                                                     <td>
                                                         3
@@ -637,10 +641,10 @@
                                                         7
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1102
+                                                        TI1206
                                                     </td>
                                                     <td>
-                                                        Dasar-dasar Pemrograman
+                                                        Rekayasa Perangkat Lunak
                                                     </td>
                                                     <td>
                                                         3
@@ -654,10 +658,10 @@
                                                         8
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1104
+                                                        TI2421
                                                     </td>
                                                     <td>
-                                                        Kalkulus
+                                                        Pemrograman Web
                                                     </td>
                                                     <td>
                                                         3
@@ -673,6 +677,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester5 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester5">Semester 5</a></h4>
@@ -696,13 +701,13 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        ME3521
                                                     </td>
                                                     <td>
-                                                        Islam dan Ke-NU-an 1
+                                                        Ekonomi Teknik
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -713,13 +718,13 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        TI3522
                                                     </td>
                                                     <td>
-                                                        Bahasa Indonesia 1
+                                                        Keamanan Informasi
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -730,13 +735,13 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        TI3523
                                                     </td>
                                                     <td>
-                                                        Bahasa Inggris 1
+                                                        Sistem Pakar
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -747,13 +752,13 @@
                                                         4
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1215
+                                                        TI3524
                                                     </td>
                                                     <td>
-                                                        Pendidikan Pancasila
+                                                        Pengolahan Citra Digital
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -764,13 +769,13 @@
                                                         5
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1216
+                                                        TI3525
                                                     </td>
                                                     <td>
-                                                        Pendidikan Kewarganegaraan
+                                                        Sistem Terdistribusi
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -781,7 +786,7 @@
                                                         6
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1101
+                                                        *
                                                     </td>
                                                     <td>
                                                         Mata Kuliah Peminatan
@@ -798,7 +803,7 @@
                                                         7
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1102
+                                                        **
                                                     </td>
                                                     <td>
                                                         Mata Kuliah Peminatan
@@ -818,6 +823,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester6 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester6">Semester 6</a></h4>
@@ -841,10 +847,10 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        MI3613	
                                                     </td>
                                                     <td>
-                                                        Islam dan Ke-NU-an 1
+                                                        Bahasa Inggris 2
                                                     </td>
                                                     <td>
                                                         2
@@ -858,13 +864,13 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        TI3629
                                                     </td>
                                                     <td>
-                                                        Bahasa Indonesia 1
+                                                        Tren Teknologi
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -875,13 +881,13 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        TI3626
                                                     </td>
                                                     <td>
-                                                        Bahasa Inggris 1
+                                                        Metodologi Penelitian dan Penulisan Ilmiah
                                                     </td>
                                                     <td>
-                                                        2
+                                                        3
                                                     </td>
                                                     <td>
                                                         -
@@ -892,13 +898,13 @@
                                                         4
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1215
+                                                        TI3627
                                                     </td>
                                                     <td>
-                                                        Pendidikan Pancasila
+                                                        Kerja Praktek (Magang)
                                                     </td>
                                                     <td>
-                                                        2
+                                                        4
                                                     </td>
                                                     <td>
                                                         -
@@ -909,7 +915,7 @@
                                                         5
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1101
+                                                        *
                                                     </td>
                                                     <td>
                                                         Mata Kuliah Peminatan
@@ -926,7 +932,7 @@
                                                         6
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        TI1102
+                                                        **
                                                     </td>
                                                     <td>
                                                         Mata Kuliah Peminatan
@@ -946,6 +952,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester7 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester7">Semester 7</a></h4>
@@ -969,7 +976,7 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        TI4728
                                                     </td>
                                                     <td>
                                                         KKN
@@ -986,7 +993,7 @@
                                                         2
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1103
+                                                        TI4730
                                                     </td>
                                                     <td>
                                                         Etika Profesi
@@ -1003,10 +1010,44 @@
                                                         3
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1105
+                                                        TI4859
                                                     </td>
                                                     <td>
                                                         Kelas Seminar
+                                                    </td>
+                                                    <td>
+                                                        2
+                                                    </td>
+                                                    <td>
+                                                        -
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        4
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        *
+                                                    </td>
+                                                    <td>
+                                                        Mata Kuliah Peminatan
+                                                    </td>
+                                                    <td>
+                                                        3
+                                                    </td>
+                                                    <td>
+                                                        -
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        5
+                                                    </td>
+                                                    <td class="hidden-xs">
+                                                        **
+                                                    </td>
+                                                    <td>
+                                                        Mata Kuliah Peminatan
                                                     </td>
                                                     <td>
                                                         2
@@ -1022,6 +1063,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- semester8 -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#semester8">Semester 8</a></h4>
@@ -1045,7 +1087,7 @@
                                                         1
                                                     </td>
                                                     <td class="hidden-xs">
-                                                        MI1101
+                                                        TI4831
                                                     </td>
                                                     <td>
                                                         SKRIPSI
@@ -1065,26 +1107,92 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
+                <!-- sidebar bahan kajian -->
+                <div class="col-sm-5 col-md-4 col-md-offset-1 sidebar">
                     <div class="shop-Cart-totalbox">
                         <h4 class="font-alt">Bahan Kajian</h4>
                         <table class="table table-hover table-border checkout-table">
+                            <thead>
+                                <tr>
+                                    <th class="hidden-xs">Kode</th>
+                                    <th class="hidden-xs">Bahan Kajian</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                            <tr>
-                                <th>BK1</th>
-                                <td>Algoritma dan Pemrograman</td>
-                            </tr>
-                            <tr>
-                                <th>BK2 </th>
-                                <td>Sistem Cerdas</td>
-                            </tr>
-                            <tr>
-                                <th>BK3 </th>
-                                <td>Komunikasi dan Jaringan Komputer</td>
-                            </tr>
+                                <tr>
+                                    <th>BK1 </th>
+                                    <td>Algoritma dan kompleksitas</td>
+                                </tr>
+                                <tr>
+                                    <th>BK2 </th>
+                                    <td>Arsitektur dan organisasi komputer</td>
+                                </tr>
+                                <tr>
+                                    <th>BK3 </th>
+                                    <td>Ilmu Komputasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK4 </th>
+                                    <td>Struktur diskrit</td>
+                                </tr>
+                                <tr>
+                                    <th>BK5 </th>
+                                    <td>Grafik dan visualisasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK6 </th>
+                                    <td>Interaksi Manusia dan Komputer</td>
+                                </tr>
+                                <tr>
+                                    <th>BK7 </th>
+                                    <td>Penjaminan dan keamanan informasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK8 </th>
+                                    <td>Manajemen Informasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK9 </th>
+                                    <td>Sistem Cerdas</td>
+                                </tr>
+                                <tr>
+                                    <th>BK10 </th>
+                                    <td>Jaringan dan komunikasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK11 </th>
+                                    <td>Sistem Operasi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK12 </th>
+                                    <td>Pengembangan berbasis platform</td>
+                                </tr>
+                                <tr>
+                                    <th>BK13 </th>
+                                    <td>Komputasi paralel terdistribusi</td>
+                                </tr>
+                                <tr>
+                                    <th>BK14 </th>
+                                    <td>Bahasa Pemrograman</td>
+                                </tr>
+                                <tr>
+                                    <th>BK15 </th>
+                                    <td>Dasar pengembangan software</td>
+                                </tr>
+                                <tr>
+                                    <th>BK16 </th>
+                                    <td>Rekayasa Perangkat Lunak</td>
+                                </tr>
+                                <tr>
+                                    <th>BK17 </th>
+                                    <td>Pembentukan karakter</td>
+                                </tr>
+                                <tr>
+                                    <th>BK18 </th>
+                                    <td>Isu sosial dan praktik profesional</td>
+                                </tr>
                             </tbody>
                         </table>
                         <a href="http://unusia.ac.id" class="btn btn-lg btn-block btn-round btn-d">Download Dokumen</a>
