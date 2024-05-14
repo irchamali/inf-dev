@@ -22,66 +22,69 @@
                     <div class="tab-pane" id="capaian">
                       <img src="/assets/backend/images/about/profil_lulusan.png" alt="" width="100%">
                     </div>
-                    <div class="tab-pane" id="kepemimpinan">Tabel Kaprodi
+                    <div class="tab-pane" id="kepemimpinan">
+                      <h5>Ketua Program Studi dari Masa ke Masa</h5>
                     <div class="row">
                       <div class="col-sm-12">
-                        <h2 class="font-serif text-center">Semester 1</h2>
                           <table class="table table-striped table-border checkout-table">
+                            <thead>
+                              <tr>
+                                <th class="hidden-xs">#</th>
+                                <th>Nama</th>
+                                <th>Periode</th>
+                              </tr>
+                            </thead>
                             <tbody>
                               <tr>
-                                <th>#</th>
-                                <th class="hidden-xs">Kode</th>
-                                <th>Mata Kuliah</th>
-                                <th>SKS</th>
-                                <th>Ket.</th>
-                              </tr>
-                              <tr>
-                                  <td>
-                                      <h5 class="product-title font-alt">1</h5>
-                                  </td>
                                   <td class="hidden-xs">
                                       <h5 class="product-title font-alt">1</h5>
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">Islam dan Ke-NU-an 1</h5>
+                                      <h5 class="product-title font-alt">Ahmad Musyafa, S.Kom., M.Kom</h5>
                                   </td>
                                   <td>
-                                  <h5 class="product-title font-alt">2</h5>
-                                  </td>
-                                  <td>
-                                      <h5 class="product-title font-serif">-</h5>
+                                      <h5 class="product-title font-serif">2016-2018</h5>
                                   </td>
                               </tr>
-                              <td>
+                                  <td class="hidden-xs">
                                       <h5 class="product-title font-alt">2</h5>
                                   </td>
-                                  <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">1</h5>
+                                  <td>
+                                      <h5 class="product-title font-alt">Irpan Kusyadi, S.Kom., M.Kom</h5>
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">Bahasa Indonesia 1</h5>
-                                  </td>
-                                  <td>
-                                  <h5 class="product-title font-alt">2</h5>
-                                  </td>
-                                  <td>
-                                      <h5 class="product-title font-serif">-</h5>
+                                      <h5 class="product-title font-serif">2018-2020</h5>
                                   </td>
                               </tr>
-                              <td>
+                                  <td class="hidden-xs">
                                       <h5 class="product-title font-alt">3</h5>
                                   </td>
+                                  <td>
+                                      <h5 class="product-title font-alt">Musaid Purnomo Juwono, S.T., M.T.I</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">2020-2021</h5>
+                                  </td>
+                              </tr>
+                              </tr>
                                   <td class="hidden-xs">
-                                      <h5 class="product-title font-alt">1</h5>
+                                      <h5 class="product-title font-alt">4</h5>
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">Coba</h5>
+                                      <h5 class="product-title font-alt">Fezan Nabawi, M.M., M.Kom</h5>
                                   </td>
                                   <td>
-                                  <h5 class="product-title font-alt">2</h5>
+                                      <h5 class="product-title font-serif">Maret-November 2021</h5>
+                                  </td>
+                              </tr>
+                                  <td class="hidden-xs">
+                                      <h5 class="product-title font-alt">5</h5>
                                   </td>
                                   <td>
-                                      <h5 class="product-title font-serif">-</h5>
+                                      <h5 class="product-title font-alt">Ircham Ali, S.Kom., M.Kom</h5>
+                                  </td>
+                                  <td>
+                                      <h5 class="product-title font-serif">2021-2025</h5>
                                   </td>
                               </tr>
                             </tbody>
@@ -147,73 +150,7 @@
                           <li><b>Infrastruktur</b>: Sarana pembelajaran seperti ruang kuliah dan laboratorium komputer dipersiapkan dengan baik dengan didukung sarana dan prasarana yang baik; </li>
                           <li><b>Penelitian dan Pengabdian</b>: Meningkatkan produk penelitian atau publikasi ilmiah dan pengabdian masyarakat secara mandiri maupun kolaborasi dosen dengan mahasiswa dan lintas institusi.</li>
                         </ol>
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="font-serif text-center">Semester 1</h2>
-                              <table class="table table-striped table-border checkout-table">
-                                <tbody>
-                                  <tr>
-                                    <th>#</th>
-                                    <th class="hidden-xs">Kode</th>
-                                    <th>Mata Kuliah</th>
-                                    <th>SKS</th>
-                                    <th>Ket.</th>
-                                  </tr>
-                                  <tr>
-                                      <td>
-                                          <h5 class="product-title font-alt">1</h5>
-                                      </td>
-                                      <td class="hidden-xs">
-                                          <h5 class="product-title font-alt">1</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">Islam dan Ke-NU-an 1</h5>
-                                      </td>
-                                      <td>
-                                      <h5 class="product-title font-alt">2</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">-</h5>
-                                      </td>
-                                  </tr>
-                                  <td>
-                                          <h5 class="product-title font-alt">2</h5>
-                                      </td>
-                                      <td class="hidden-xs">
-                                          <h5 class="product-title font-alt">1</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">Bahasa Indonesia 1</h5>
-                                      </td>
-                                      <td>
-                                      <h5 class="product-title font-alt">2</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">-</h5>
-                                      </td>
-                                  </tr>
-                                      <td>
-                                          <h5 class="product-title font-alt">3</h5>
-                                      </td>
-                                      <td class="hidden-xs">
-                                          <h5 class="product-title font-alt">1</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">Coba</h5>
-                                      </td>
-                                      <td>
-                                      <h5 class="product-title font-alt">2</h5>
-                                      </td>
-                                      <td>
-                                          <h5 class="product-title font-serif">-</h5>
-                                      </td>
-                                  </tr>
-                                  
-                                </tbody>
-                              </table>
-                            </div>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
