@@ -66,7 +66,10 @@ $routes->get('profil', 'AbProfilController::index');
 $routes->get('pengelola', 'AbPengelolaController::index');
 $routes->get('dosen', 'AbDosenController::index');
 $routes->get('kurikulum', 'AbKurikulumController::index');
-$routes->get('dosen', 'AbPeminatanController::index');
+$routes->get('peminatan', 'AbPeminatanController::index');
+$routes->get('softwaredevelopment', 'AbP1Controller::index');
+$routes->get('networkengineering', 'AbP2Controller::index');
+$routes->get('intelligentsystem', 'AbP3Controller::index');
 
 $routes->get('about', 'AboutController::index');
 $routes->get('strategymap', 'AbStrategymapController::index');

@@ -7,7 +7,7 @@ use App\Models\AboutModel;
 use App\Models\HomeModel;
 use App\Models\SiteModel;
 
-class AbStrukturorgController extends BaseController
+class AbP1Controller extends BaseController
 {
     public function __construct()
     {
@@ -23,9 +23,9 @@ class AbStrukturorgController extends BaseController
             'home' => $this->homeModel->find(1),
             'about' => $this->aboutModel->find(1),
             
-            'title' => 'Struktur Organisasi',
-            'active' => 'Struktur Organisasi'
+            'title' => 'Software Development',
+            'active' => 'Software Development'
         ];
-        return view('about/strukturorg_view', $data);
+        return view('about/p1_view', $data);
     }
 }
