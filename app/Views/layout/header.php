@@ -84,16 +84,30 @@
                       <li><a href="#">Magang</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Page 404</a></li>
+                  <li><a href="#">Bimbingan</a></li>
+                  <li><a href="#">Beasiswa</a></li>
                 </ul>
               </li>
 
               <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documents</a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Docs1</a></li>
-                  <li><a href="#">Docs2</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Panduan</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Akademik</a></li>
+                      <li><a href="#">Skripsi</a></li>
+                      <li><a href="#">Magang</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">SK</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Pembimbing Akademik</a></li>
+                      <li><a href="#">Pembimbing Skripsi</a></li>
+                      <li><a href="#">Yudisium</a></li>
+                    </ul>
+                  </li>
                 </ul>
+              </li>
+              <li><a href="#" >PMB</a>
               </li>
             </ul>
           </div>

@@ -9,14 +9,14 @@
                 <?php foreach ($posts as $post) : ?>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="post">
-                    <div class="post-thumbnail"><a href="/post/<?= $post['post_slug']; ?>"><img src="/assets/backend/images/post/<?= $post['post_image']; ?>" alt="Blog-post Thumbnail"/></a></div>
+                    <div class="post-thumbnail"><a href="/post/<?= $post['post_slug']; ?>"><img src="<?= base_url(''); ?>/assets/backend/images/post/<?= $post['post_image']; ?>" alt="Blog-post Thumbnail"/></a></div>
                     <div class="post-header font-alt">
                         <h2 class="post-title"><a href="/post/<?= $post['post_slug']; ?>"><?= $post['post_title']; ?></a></h2>
                         <div class="post-meta">By&nbsp;<a href="#"><?= $post['user_name']; ?></a>&nbsp;| <time datetime="2022-01-01"><?= date('d M Y', strtotime($post['post_date'])); ?></time>
                         </div>
                     </div>
                     <div class="post-entry">
-                        <p>Text..</p>
+                        <!-- <p>Text..</p> -->
                     </div>
                     <div class="post-more"><a class="more-link" href="/post/<?= $post['post_slug']; ?>">Read more</a></div>
                     </div>
